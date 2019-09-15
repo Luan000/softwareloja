@@ -2,7 +2,9 @@ produtos = {'CAMISAS E TECTEL': 11, 'LISTRADAS, POLOS E CAMISAS DE TIME ': 30, '
             'CAMISAS VARIDAS': 25, 'BONÉS E CHINELOS': 15, 'MEIAS': 11, 'CORTA VENTO': 65, 'ÓCULOS NORMAL': 50,
             'CALÇAS JEANS': 28, 'CUECAS': 25, 'ÓCULOS DE DESCANÇO': 35, 'GATILHOS': 6, 'TÊNIS NIKE 4 MOLA': 75,
             'TÊNIS OAKLEY FLEK': 85, 'TÊNIS OAKLEY MODOC': 90, 'TÊNIS FILA': 35}
-print('TÊNIS FILA' in produtos)
+print('==================================')
+print('       PROGRAMA DA LOJA ')
+print('==================================')
 tot = int(input('VALOR TOTAL DE VENDAS HOJE: '))
 acm = s = quantt = lucrot = lucrop = quantp = 0
 for c, v in produtos.items():
